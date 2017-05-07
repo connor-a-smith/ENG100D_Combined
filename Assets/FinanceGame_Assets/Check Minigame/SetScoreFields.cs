@@ -19,8 +19,8 @@ public class SetScoreFields : MonoBehaviour {
                      "Whole Checks Completed: " + Controller.checksCompleted + "\n\n" +
                      "Total Score: " + (Controller.blanksFilled + 5*Controller.checksCompleted);
 
-
-    GlobalScore.score += Controller.blanksFilled + (5*Controller.checksCompleted);
+    GlobalScore.addScore(Controller.blanksFilled + (5 * Controller.checksCompleted));
+    //GlobalScore.score += Controller.blanksFilled + (5*Controller.checksCompleted);
                      
 	
 	}

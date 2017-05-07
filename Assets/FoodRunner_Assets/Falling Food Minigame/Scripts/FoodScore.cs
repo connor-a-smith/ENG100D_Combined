@@ -60,7 +60,7 @@ public class FoodScore : MonoBehaviour
         TotalScore.text = totalScore.ToString();
     }
 
-    void returnToCity()
+    public void returnToCity()
     {
 
         SceneManager.LoadScene(0);

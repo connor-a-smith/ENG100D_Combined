@@ -119,6 +119,8 @@ public class Draggable : MonoBehaviour
     void Snap(Vector2 location)
     {
 
+        Debug.Log("snap");
+
         //sets position
         this.transform.position = location;
 

@@ -42,8 +42,8 @@ public class Countdown : MonoBehaviour {
 				t -= 1;
 			}
 			if (t < 0 ) {
-				loadFlossText();
-				//loadScoreScreen();
+				//loadFlossText();
+				loadScoreScreen();
 			}
 
 			string minutes = ((int) t / 60).ToString();
